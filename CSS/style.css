@@ -1,9 +1,47 @@
 /* Body */
 body {
-    margin: 0;
-    background: #f4f5f7;
-    font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  background: #f4f5f7;
+  font-family: 'Ubuntu', sans-serif;
 }
+
+
+.customNav {
+  position: fixed;
+  width: 100%;
+  background-color: transparent !important;
+  background-size: cover;
+  z-index: 10;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+.navbar-brand img {
+  padding-right: 33px;
+  width: 65px;
+}
+.nav-item {
+  margin: 0px 15px;
+}
+
+
+/* Navigation links */
+.customNav a:hover {
+  color: rgb(0, 0, 0) !important;
+}
+
+.navCTA {
+  font-size: 15px;
+}
+.nav-item {
+  font-size: 25px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: normal;
+  color: #505D68;
+}
+
 
 
 /* Jumbotron  */
@@ -35,8 +73,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: auto;
+  width: 70%;
+  margin-top: 13rem;
 }
-
+.rounded {
+  border-radius: 25rem !important;
+}
 
 /* Jumbotron copy */
 .jumboCopy2 {
@@ -47,6 +90,8 @@ body {
 
 /* Cards */  
 .content {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
   padding: 50px;
 }
 .cardContainer {
@@ -58,7 +103,8 @@ body {
 }
 
 
-/* Ministries */
+
+/* Ministries
 .img-wrapper {
   position: relative;
 }
@@ -81,24 +127,24 @@ body {
   content: ' ';
   display: block;
   /* adjust 'height' to position overlay content vertically */
-  height: 75%;
-}
-.btn-responsive {
+  /* height: 75%;
+} */
+/* .btn-responsive {
   /* matches 'btn-md' */
-  padding: 10px 16px;
+  /* padding: 10px 16px;
   font-size: 18px;
   line-height: 1.3333333;
   border-radius: 6px;
 }
 @media (max-width:760px) {
   /* matches 'btn-xs' */
-  .btn-responsive {
+  /* .btn-responsive {
     padding: 1px 5px;
     font-size: 12px;
     line-height: 1.5;
     border-radius: 3px;
   }
-}
+/* } */ */ */ */ */
 
 
 
@@ -111,15 +157,16 @@ h1 {
   font-weight: bold;
   font-size: 100px;
 }
-
 h2 {
   color: #ffffff;
   text-align: center;
   font-family: 'Ubuntu'; 
   font-style: normal;
   font-weight: normal;
-  font-size: 50px;
+  font-size: 175px;
 }
+
+
 
 #categoryGrid {
     margin: 0px 15%;
@@ -134,6 +181,12 @@ h2 {
     ;
   }
 
+.btn {
+  background-color: #739DD3 !important;
+  font-family: 'Ubuntu';
+}
+
+
   #whoweare {
     grid-area: whoweare;
     background-image: url("/Images/whoweare.jpg");
@@ -141,7 +194,7 @@ h2 {
   
   #locations {
     grid-area: locations;
-    background-image: url("/Images/locations.png");
+    background-image: url("/Images/inperson.png");
   }
   
   #watch {
@@ -176,7 +229,7 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
     margin: 10px;
-    padding: 30px;
+    padding: 60px;
     border-radius: 20px;
     cursor: pointer;
     display: grid;
@@ -203,9 +256,11 @@ h2 {
     font-family: 'Poppins' , sans-serif;
 }
 
+
+/* Footer */
 .footer-container {
     background-color: #ffffff;
-    padding: 4rem 0 4rem 0; 
+    padding: 4rem 0 4rem 0;
 }
 
 .footer {
