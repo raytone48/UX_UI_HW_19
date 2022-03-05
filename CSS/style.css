@@ -46,7 +46,7 @@ body {
 
 /* Jumbotron  */
 .jumbotron {
-  background-image: url(/Images/locations.png);
+  background-image: url(Images/locations.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: calc(100vh - 25px);
@@ -66,7 +66,7 @@ body {
 
 /* Jumbotron  */
 .jumbotron2 {
-  background-image: url(/Images/latestsermon.png);
+  background-image: url(Images/latestsermon.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: calc(75vh);
