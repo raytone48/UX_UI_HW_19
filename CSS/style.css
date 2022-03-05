@@ -181,45 +181,50 @@ h2 {
     ;
   }
 
-.btn {
+button {
+  width: auto;
+  margin: 5px 0% 5px;
+  margin-bottom: 10px;
+  height: 25px;
   background-color: #739DD3 !important;
   font-family: 'Ubuntu';
 }
 
 
+
   #whoweare {
     grid-area: whoweare;
-    background-image: url("/Images/whoweare.jpg");
+    background-image: url("Images/whoweare.jpg");
   }
   
   #locations {
     grid-area: locations;
-    background-image: url("/Images/inperson.png");
+    background-image: url("Images/inperson.png");
   }
   
   #watch {
     grid-area: watch;
-    background-image: url("/Images/watch.jpg");
+    background-image: url("Images/watch.jpg");
   }
   
   #connect {
     grid-area: connect;
-    background-image: url("/Images/connect.png");
+    background-image: url("Images/connect.png");
   }
   
   #secondkids {
     grid-area: secondkids;
-    background-image: url("/Images/secondkids.jpg");
+    background-image: url("Images/secondkids.jpg");
   }
 
   #secondstudents {
       grid-area: secondstudents;
-      background-image: url("/Images/secondstudents.jpg")
+      background-image: url("Images/secondstudents.jpg")
   }
 
   #giving {
       grid-area: giving;
-      background-image: url("/Images/give.jpg");
+      background-image: url("Images/give.jpg");
   }
 
 
